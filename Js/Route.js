@@ -1,5 +1,5 @@
 function Route(){
     this.id;
-    this.inheritAttr;
+    this.start;
     this.end;
 }
