@@ -3,6 +3,9 @@ from account import Account
 
 # Método principal de python
 # La notación de python se rige mediante tabs o espacios
+# Python usa lower camel case en el nombre del documento
+# las clases usan UpperCamelCase
+
 if __name__ == "__main__":
     print("Hola Mundo")
 
