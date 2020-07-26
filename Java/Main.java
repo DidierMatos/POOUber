@@ -6,7 +6,8 @@ class Main {
         System.out.println("Hola Mundo");
 
         UberX uberX = new UberX("AMSQ123", new Account("Andres Herrera", "AND123"), "Chevrolet", "Sonic"); //Instanciando objeto
-        uberX.passenger = 3;
+        // uberX.passenger = 3; // ya no es permitido ya que se hizo privado y ahora se accede con setter y getter
+        uberX.setPassenger(2); //solo permite ingresar el valor correcto por tipo de carro
         uberX.printDataCar();
         // car.license = "AMQ123 ";
         // car.driver ="Andres Herrera";
