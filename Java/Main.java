@@ -5,7 +5,7 @@ class Main {
     public static void main(String[] args) {
         System.out.println("Hola Mundo");
 
-        UberX uberX = new UberX("AMSQ123", new Account("Andres Herrera", "AND123")); //Instanciando objeto
+        UberX uberX = new UberX("AMSQ123", new Account("Andres Herrera", "AND123"), "Chevrolet", "Sonic"); //Instanciando objeto
         uberX.passenger = 3;
         uberX.printDataCar();
         // car.license = "AMQ123 ";
